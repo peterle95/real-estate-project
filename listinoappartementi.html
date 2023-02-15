@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="it">
-    <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="styles/style_home.css"/>
+  <link rel="stylesheet" href="styles/style_apartamenti.css">
 
 <head>
-      <title>Benvenuti</title>
-      <div class="header">
-        <a href="#default" class="logo"> <img src="reallogo2.png" alt="Avv. Cinzia Ameri Real Estate Management">
-        </a> 
-        <div class="header-right">
-          <a class="active" href="home.html">Home</a>
-          <a href="informazioni.html">Contact</a>
-          <a href="informazioni.html">About</a>
-        </div>
+  <title>Avv. Cinzia Ameri - Real Estate Management</title>
+    <!--This adds the icon on the title of the webpage-->
+    <link rel="icon" href="images/logo_transparent.png" type="images/icon type"> 
+    
+    <!--Wallpaper for the website-->
+    <style>
+      body {
+        background-image: url("images/background-webpage.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  
+  
+    <div class="header">
+      <a href="#default" class="logo">
+        <img id="first_logo" src="images/logo_transparent.png" alt="Avv. Cinzia Ameri Real Estate Management">
+      </a> 
+      <div class="header-right">
+        <a class="active" href="home.html">Home</a>
+        <a href="informazioni.html">Contact</a>
+        <a href="about.html">About</a>
       </div>
-</head>
+    </div>
+  </head>
 <body>
+
+  <div class="properties">
+    <h2>Our Properties</h2>
+    <p>Check out some of our featured properties below:</p>
+    <div class="property">
+      <img id="house_picture" src="images/house1.jpg" alt="Property 1">
+      <h3>Property 1 Name</h3>
+      <p>Address: 123 Main St.</p>
+      <p>Bedrooms: 3 | Bathrooms: 2</p>
+      <p>Price: $500,000</p>
+    </div>
+    <div class="property">
+      <img id="house_picture" src="images/house2.jpg" alt="Property 2">
+      <h3>Property 2 Name</h3>
+      <p>Address: 456 Oak St.</p>
+      <p>Bedrooms: 4 | Bathrooms: 3</p>
+      <p>Price: $750,000</p>
+    </div>
+
+
     <div class="container">
          <h2>Listino Appartamenti</h2>
-         <div class="appartamento1">
-         <img src="logo.png" alt="appartamento">
+         <div class="appartamento_sinistra">
+         <img id="house_picture" src="images/house4.jpg" alt="appartamento">
          <p>Primo paragrafo, dove vanno messe tutte le informazioni sul prezzo, il posto, il costo. 
           Magari scrivere anche qualche altra peculiarità. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-         <div class="appartamento2">
-         <img  src="logo.png" alt="appartamento">
+         <div class="appartamento_destra">
+         <img id="house_picture" src="images/house5.jpg" alt="appartamento">
          <p>Secondo paragrafo, dove vanno messe tutte le informazioni sul prezzo, il posto, il costo. 
           Magari scrivere anche qualche altra peculiarità. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-         <div class="appartamento3">
-         <img  src="logo.png" alt="appartamento">
+         <div class="appartamento_sinistra">
+         <img id="house_picture" src="images/house6.jpg" alt="appartamento">
          <p>Terzo paragrafo, dove vanno messe tutte le informazioni sul prezzo, il posto, il costo. 
           Magari scrivere anche qualche altra peculiarità. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-         <div class="appartamento4">
-         <img  src="logo.png" alt="appartamento">
+         <div class="appartamento_destra">
+         <img id="house_picture" src="images/house7.jpg" alt="appartamento">
          <p>Quarto paragrafo, paragrafo, dove vanno messe tutte le informazioni sul prezzo, il posto, il costo. 
           Magari scrivere anche qualche altra peculiarità. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
     </div>
-     <div>
-    <h2><a href="https://www.facebook.com/cinzia.ameri.3"> Facebook Marketplace</a></h2>
-     </div>
-     <div>
-      <footer>
-        <p><strong>Cinzia Ameri</strong></p>
-        <p><a href="mailto:cinam@libero.it">cinam@libero.it</a></p>
-      </footer>
-</div>
+
+    <form action="/contact" method="post">
+      <label for="contact">Inserire email per essere contattati:</label><br>
+      <input type="text" id="contact" name="username">
+      <input type="submit">
+    </form>
+
+    <div class="share-buttons">
+      <a href="https://www.instagram.com/cinzia_ameri" target="_blank" class="share-button instagram">
+        <img src="images/instagram-logo.png" alt="Instagram logo" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://facebook.com/cinzia_ameri" target="_blank" class="share-button facebook">
+        <img src="images/facebook-logo.png" alt="Instagram logo" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://t.me/share/url?url=YOUR_EVENT_URL&text=Check out this event!" target="_blank" class="share-button telegram">
+        <img src="images/telegram-logo.png" alt="Instagram logo" style="width: 30px; height: 30px;">
+      </a>
+      <a href="whatsapp://send?text=Check out this event! YOUR_EVENT_URL" target="_blank" class="share-button whatsapp">
+        <img src="images/whatsapp-logo.png" alt="Instagram logo" style="width: 30px; height: 30px;">
+      </a>
+    </div>
 </body>
 </html>
