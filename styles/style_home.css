@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Quicksand:wght@300&display=swap');
 
 body{
-    background-image: url('background-webpage.png');
+    background-image: url('images/background-webpage.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -99,7 +99,7 @@ h3 {
 }
 
 footer {
-  background-image: url('background-webpage.png');
+  background-image: url('images/background-webpage.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -259,7 +259,7 @@ margin-right: 50%;
   }
   .contact-list {
     padding: 10px;
-    background-image: url('background-webpage.png');
+    background-image: url('images/background-webpage.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
