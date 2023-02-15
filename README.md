@@ -1,1 +1,1 @@
-This is a test. Try to change this
+This project regards our family business. Our family runs a real estate business in Genoa since many generations. The goal is to digitalize the business by first creating a web site.
